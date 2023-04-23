@@ -1,0 +1,81 @@
+/* src */
+#src {
+  width: 100%;
+  height: 10%;
+  margin: 0 auto;
+  position: relative;
+  background-color: #999;
+  border-bottom: 1px #333;
+}
+
+.top_src input::placeholder {
+  color: #999;
+}
+.top_src label a {
+  display: block;
+  float: left;
+  margin-left: -50px;
+  padding: 6px 0;
+}
+
+.main {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+  float: left;
+}
+
+.l_group {
+  position: relative;
+  width: 20%;
+  height: 100%;
+}
+
+.l_group .logo {
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+}
+
+.l_group .group_list ul li a {
+  display: block;
+  margin: 30px 0;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+#list {
+  position: relative;
+  width: 25%;
+  height: 100%;
+}
+
+#list ul li {
+  display: block;
+  float: left;
+}
+
+#list .lf_profile {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+#list .lf_name {
+  font: 500 16px;
+}
+
+.main_chat {
+  position: relative;
+  width: 65%;
+  height: 100%;
+}
+
+.mc_stt {
+  position: fixed;
+}
+
+.mc_stt span {
+  display: inline-block;
+}
